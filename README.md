@@ -1,5 +1,7 @@
 # KDB Notes
 
+My notes on KDB/Q
+
 ## Q For Mortals
 
 > My notes on the book "Q for Mortals" by Jeffry Johnston.
@@ -8,12 +10,43 @@
 
 ## Table of Contents
 
-1. [Q Shock and Awe](https://github.com/backstreetbrogrammer/30_DeltaOne/blob/main/kdb/Q_For_Mortals.md#1-q-shock-and-awe)
+1. [Q Shock and Awe](https://github.com/backstreetbrogrammer/59_KDB_Notes?tab=readme-ov-file#1-q-shock-and-awe)
 2. [Basic Data Types: Atoms]()
 
 ---
 
 ## 1. Q Shock and Awe
+
+KDB Database is a high-performance, columnar, time-series database developed by Kx Systems.
+
+It is widely used in industries like finance, telecommunications, and utilities for handling large volumes of real-time
+and historical data.
+
+KDB is built around the **q programming language**, which is a concise, expressive, and functional language designed for
+querying and analyzing data efficiently.
+
+**Key Features of KDB:**
+
+- **Columnar Storage**: Optimized for analytical queries, especially on time-series data.
+- **Time-Series Focus**: Designed to handle high-frequency data, such as stock market tick data.
+- **In-Memory Processing**: Supports in-memory operations for ultra-fast data access and computation.
+- **q Language**: A powerful query language for data manipulation and analysis.
+- **Scalability**: Handles terabytes to petabytes of data efficiently.
+- **Real-Time and Historical Data**: Combines real-time streaming data with historical data for analysis.
+
+**Benefits of KDB:**
+
+- **High Performance**: Optimized for speed, making it ideal for real-time analytics and high-frequency trading.
+- **Compact Syntax**: The q language allows for concise and expressive queries, reducing development time.
+- **Efficient Storage**: Columnar storage reduces disk I/O and improves query performance.
+- **Time-Series Analysis**: Built-in support for time-series operations like aggregation, joins, and windowing.
+- **Scalability**: Can scale horizontally and vertically to handle massive datasets.
+- **Interprocess Communication (IPC)**: Enables distributed computing and integration with other systems.
+- **Flexibility**: Supports structured, semi-structured, and unstructured data.
+- **Integration**: Easily integrates with other programming languages (e.g., Python, C++, Java) and tools.
+
+KDB is particularly popular in financial services for tasks like algorithmic trading, risk management, and market data
+analysis due to its ability to process large datasets in real time.
 
 ### 1.1 Starting q
 
